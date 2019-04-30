@@ -1,10 +1,10 @@
-# Fuzzy - Panela de Pressao
+# Fuzzy - Panela-de-Pressao
 ### Trabalho - IA
 
-### Implementação de um Sistema Especialista Fuzzy para Controle de Temperatura de Panela de Pressão
-#### Acadêmicos: Charle Gonzaga, Cássio Rasveiler.
+### Implementação de um Sistema Especialista Fuzzy para o controle da pressão de uma Panela-de-Pressão
+###### Acadêmicos: Charle Gonzaga, Cássio Rasveiler.
 
-##### 1. Introdução
+#### 1. Introdução
 <p align="justify">
 Neste relatório será detalhada a implementação de um Sistema Especialista Fuzzy utilizando a
 ferramenta FuzzyClips. A finalidade do sistema é controlar a pressão de uma panela-de-pressão.
@@ -13,10 +13,12 @@ ferramenta FuzzyClips. A finalidade do sistema é controlar a pressão de uma pa
 As variáveis lingüísticas de entrada e saída são mostradas na Tabela 1:
 </p>
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
+| Temperatura 'fogo' | Pressão |
+| -------- | -------- |------- |
+| baixa | baixa | média | alta|
+| média | a | b | c|
+| alta | d | e | f|
 | Paragraph | Text |
-###### *Tabela 1*
+###### *Tabela 1. Variáveis lingüísticas para o controle da pressão de uma panela de pressão*
 
-##### 4. Conclusão
+#### 4. Conclusão
