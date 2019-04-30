@@ -28,21 +28,21 @@ As variáveis lingüísticas de entrada e saída são mostradas na Tabela 1:
   </thead>
   <tbody>
     <tr>
-      <td>Baixa</td>
-      <td>aaa</td>
-      <td>bbb</td>
-      <td>ccc</td>
+      <th>Baixa</th>
+      <td>Muito Lento</td>
+      <td>Lento</td>
+      <td>Moderado</td>
     </tr>
     <tr>
-      <td>Média</td>
-      <td>ddd</td>
-      <td>eee</td>
-      <td>Rápido/Moderado</td>
+      <th>Média</th>
+      <td>Lento</td>
+      <td>Moderado</td>
+      <td>Rápido</td>
     </tr>
     <tr>
-      <td>Alta</td>
-      <td>fff</td>
-      <td>Rápido/Moderado</td>
+      <th>Alta</th>
+      <td>Moderado</td>
+      <td>Rápido</td>
       <td>Muito Rápido</td>
     </tr>
   </tbody>
