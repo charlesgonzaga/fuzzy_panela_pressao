@@ -1,13 +1,13 @@
 # Fuzzy - Panela-de-Pressao
 ### Trabalho - IA
 
-### Implementação de um Sistema Especialista Fuzzy para o controle da pressão de uma Panela-de-Pressão
+### Implementação de um Sistema Especialista Fuzzy para o controle da velocidade de cozimento de uma Panela-de-Pressão
 ###### Acadêmicos: Charle Gonzaga, Cássio Rasveiler.
 
 #### 1. Introdução
 <p align="justify">
-Neste relatório será detalhada a implementação de um Sistema Especialista Fuzzy utilizando a
-ferramenta FuzzyClips. A finalidade do sistema é controlar a pressão de uma panela-de-pressão.
+Neste relatório será detalhado a implementação de um Sistema Especialista Fuzzy utilizando a
+ferramenta FuzzyClips. A finalidade do sistema é controlar a velocidade de cozimento de uma panela-de-pressão.
 </p>
 <p align="justify">
 As variáveis lingüísticas de entrada e saída são mostradas na Tabela 1:
@@ -48,6 +48,6 @@ As variáveis lingüísticas de entrada e saída são mostradas na Tabela 1:
   </tbody>
 </table>
 
-###### *Tabela 1. Variáveis lingüísticas para o controle da pressão de uma panela de pressão*
+###### *Tabela 1. Variáveis lingüísticas para o controle da velocidade de cozimento de uma panela-de-pressão*
 
 #### 4. Conclusão
