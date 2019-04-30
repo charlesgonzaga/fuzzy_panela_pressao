@@ -13,12 +13,39 @@ ferramenta FuzzyClips. A finalidade do sistema é controlar a pressão de uma pa
 As variáveis lingüísticas de entrada e saída são mostradas na Tabela 1:
 </p>
 
-| Temperatura 'fogo' | Pressão |
-| -------- | -------- |------- |
-| baixa | baixa | média | alta|
-| média | a | b | c|
-| alta | d | e | f|
-| Paragraph | Text |
+<table>
+  <thead>
+    <tr>
+      <th>Temperatura 'fogo'</th>
+      <th>Pressão</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>baixa</td>
+      <td>
+        <table>
+          <thead>
+            <tr>
+              <th>Baixa</th>
+              <th>Média</th>
+              <th>Alta</th>
+            </tr>
+          </thead>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>média</td>
+      <td>aaaa</td>
+    </tr>
+    <tr>
+      <td>alta</td>
+      <td>bbbb</td>
+    </tr>
+  </tbody>
+</table>
+
 ###### *Tabela 1. Variáveis lingüísticas para o controle da pressão de uma panela de pressão*
 
 #### 4. Conclusão
