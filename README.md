@@ -16,32 +16,34 @@ As variáveis lingüísticas de entrada e saída são mostradas na Tabela 1:
 <table>
   <thead>
     <tr>
-      <th>Temperatura 'fogo'</th>
+      <th></th>
+      <th colspan='3'>Temperatura 'fogo'</th>
+    </tr>
+    <tr>
       <th>Pressão</th>
+      <th>Baixa</th>
+      <th>Média</th>
+      <th>Alta</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>baixa</td>
-      <td>
-        <table>
-          <thead>
-            <tr>
-              <th>Baixa</th>
-              <th>Média</th>
-              <th>Alta</th>
-            </tr>
-          </thead>
-        </table>
-      </td>
+      <td>Baixa</td>
+      <td>aaa</td>
+      <td>bbb</td>
+      <td>ccc</td>
     </tr>
     <tr>
-      <td>média</td>
-      <td>aaaa</td>
+      <td>Média</td>
+      <td>ddd</td>
+      <td>eee</td>
+      <td>Rápido/Moderado</td>
     </tr>
     <tr>
-      <td>alta</td>
-      <td>bbbb</td>
+      <td>Alta</td>
+      <td>fff</td>
+      <td>Rápido/Moderado</td>
+      <td>Muito Rápido</td>
     </tr>
   </tbody>
 </table>
