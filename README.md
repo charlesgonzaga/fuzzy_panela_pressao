@@ -70,3 +70,24 @@ duas funções pré-definidas (z e s) e uma trapezóide:
 #### imagem aqui
 
 ###### *Figura 1. Plotagem dos Valores numéricos possíveis para a temperatura.*
+
+<p align="justify">
+No caso do template <b>pressao</b>, utilizou-se
+três funções piramidaes:
+</p>
+<pre>
+(deftemplate pressao
+	0 20 pressao 
+	(
+		(baixa (0 0)(5 1)(7 0))
+		(media (3 0)(8 1)(13 0))
+		(alta (s 8 20))
+	)
+)
+</pre>
+
+###### *A figura 2 ilustra os valores numéricos possíveis para a pressão, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
+
+#### imagem aqui
+
+###### *Figura 2. Plotagem dos Valores numéricos possíveis para a pressão.*
