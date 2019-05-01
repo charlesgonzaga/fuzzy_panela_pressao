@@ -209,9 +209,21 @@ numéricos relacionados aos resultados. O código-fonte de cada um dos testes il
 )
 </pre>
 
+###### *A figura 4 ilustra a saida do deffacts __saida1__.*
+
+#### imagem aqui
+
+###### *Figura 4. Plotagem do deffacts saida1.*
+
 <pre>
 (deffacts saida2
   (temperatura baixa)
   (pressao media)
 )
 </pre>
+
+###### *A figura 5 ilustra a saida do deffacts __saida2__.*
+
+#### imagem aqui
+
+###### *Figura 5. Plotagem do deffacts saida2.*
