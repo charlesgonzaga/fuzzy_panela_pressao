@@ -50,4 +50,20 @@ As variáveis lingüísticas de entrada e saída são mostradas na Tabela 1:
 
 ###### *Tabela 1. Variáveis lingüísticas para o controle da velocidade de cozimento de uma panela-de-pressão*
 
+#### 2. Implementação e Testes
+<p align="justify">
+Para cada variável lingüística foi definido um template. No caso do template *temperatura*, utilizou-se
+duas funções pré-definidas (z e s) e uma trapezóide:
+</p>
+<pre>
+(deftemplate temperatura
+  0 240 graus
+  (
+    (baixa (z 0 80))
+    (media (60 0)(120 1)(150 1)(240 0))
+    (alta (s 200 240))
+  )
+)
+</pre>
+
 #### 4. Conclusão
