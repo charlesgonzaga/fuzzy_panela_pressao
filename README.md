@@ -116,9 +116,7 @@ cinco funções piramidaes:
 ###### *Figura 3. Plotagem dos Valores numéricos possíveis para o tempo de cozimento.*
 
 <p align="justify">
-As regras que definirão a distância são colocadas em 5 regras distintas, uma para cada variável
-lingüística para a velocidade de cozimento. A utilização da declaração da salience foi a solução adotada
-para garantir que essas regras fossem executadas ANTES da regra de defuzzificação;
+As variáveis lingüística foram colocadas em 5 regras distintas. A utilização da declaração da salience foi a solução adotada para garantir que essas regras fossem executadas ANTES da regra de defuzzificação;
 </p>
 
 <pre>
@@ -133,17 +131,17 @@ para garantir que essas regras fossem executadas ANTES da regra de defuzzificaç
 
 <pre>
 (defrule cozimento-rapido
-	(declare (salience 10))
-	(or 
-		and(
-			(temperatura alta)
-			(pressao media)
-		)
-		and(
-			(temperatura alta)
-			(pressao media)
-		)
-	)
+  (declare (salience 10))
+  (or 
+    and(
+      (temperatura alta)
+      (pressao media)
+    )
+    and(
+      (temperatura alta)
+      (pressao media)
+    )
+  )
 =>
   (assert (Tempo rapido))
 )
