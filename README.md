@@ -67,7 +67,7 @@ duas funções pré-definidas (z e s) e uma trapezóide:
 
 ###### *A figura 1 ilustra os valores numéricos possíveis para a temperatura, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
-#### imagem aqui
+#### ![Figura 1!](https://raw.githubusercontent.com/charlesgonzaga/fuzzy_panela_pressao/master/img-template-temperatura.jpg "Philadelphia's Magic Gardens")
 ###### *Figura 1. Plotagem dos Valores numéricos possíveis para a temperatura.*
 
 <p align="justify">
