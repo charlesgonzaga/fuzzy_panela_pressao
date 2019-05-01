@@ -51,7 +51,7 @@ As variáveis lingüísticas de entrada e saída são mostradas na Tabela 1:
 
 #### 2. Implementação e Testes
 <p align="justify">
-Para cada variável lingüística foi definido um template. No caso do template *temperatura*, utilizou-se
+Para cada variável lingüística foi definido um template. No caso do template <b>temperatura</b>, utilizou-se
 duas funções pré-definidas (z e s) e uma trapezóide:
 </p>
 <pre>
@@ -67,4 +67,6 @@ duas funções pré-definidas (z e s) e uma trapezóide:
 
 ###### *A figura 1 ilustra os valores numéricos possíveis para a temperatura, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
-#### 4. Conclusão
+#### imagem aqui
+
+###### *Figura 1. Plotagem dos Valores numéricos possíveis para a temperatura.*
