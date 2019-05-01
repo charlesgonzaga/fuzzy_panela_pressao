@@ -68,7 +68,6 @@ duas funções pré-definidas (z e s) e uma trapezóide:
 ###### *A figura 1 ilustra os valores numéricos possíveis para a temperatura, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
 #### imagem aqui
-
 ###### *Figura 1. Plotagem dos Valores numéricos possíveis para a temperatura.*
 
 <p align="justify">
@@ -89,7 +88,6 @@ três funções piramidaes:
 ###### *A figura 2 ilustra os valores numéricos possíveis para a pressão, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
 #### imagem aqui
-
 ###### *Figura 2. Plotagem dos Valores numéricos possíveis para a pressão.*
 
 <p align="justify">
@@ -112,7 +110,6 @@ cinco funções piramidaes:
 ###### *A figura 3 ilustra os valores numéricos possíveis para o tempo de cozimento, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
 #### imagem aqui
-
 ###### *Figura 3. Plotagem dos Valores numéricos possíveis para o tempo de cozimento.*
 
 <p align="justify">
@@ -208,11 +205,9 @@ numéricos relacionados aos resultados. O código-fonte de cada um dos testes il
   (pressao media)
 )
 </pre>
-
 ###### *A figura 4 ilustra a saida do deffacts __saida1__.*
 
 #### imagem aqui
-
 ###### *Figura 4. Plotagem do deffacts saida1.*
 
 <pre>
@@ -221,9 +216,9 @@ numéricos relacionados aos resultados. O código-fonte de cada um dos testes il
   (pressao media)
 )
 </pre>
-
 ###### *A figura 5 ilustra a saida do deffacts __saida2__.*
 
 #### imagem aqui
-
 ###### *Figura 5. Plotagem do deffacts saida2.*
+
+#### 3. Conclusão
