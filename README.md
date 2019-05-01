@@ -77,12 +77,12 @@ três funções piramidaes:
 </p>
 <pre>
 (deftemplate pressao
-	0 20 pressao 
-	(
-		(baixa (0 0)(5 1)(7 0))
-		(media (3 0)(8 1)(13 0))
-		(alta (s 8 20))
-	)
+  0 20 pressao 
+  (
+    (baixa (0 0)(5 1)(7 0))
+    (media (3 0)(8 1)(13 0))
+    (alta (s 8 20))
+  )
 )
 </pre>
 
@@ -91,3 +91,26 @@ três funções piramidaes:
 #### imagem aqui
 
 ###### *Figura 2. Plotagem dos Valores numéricos possíveis para a pressão.*
+
+<p align="justify">
+No caso do template <b>tempo</b>, utilizou-se
+cinco funções piramidaes:
+</p>
+<pre>
+(deftemplate tempo
+  0 90 tempo 
+  (
+    (muito_rapido (z 0 30))
+    (rapido (15 0)(30 1)(45 0))
+    (normal (30 0)(45 1)(60 0))
+    (demorado (45 0)(60 1)(75 0))
+    (muito_demorado (s 60 90))
+  )
+)
+</pre>
+
+###### *A figura 3 ilustra os valores numéricos possíveis para o tempo de cozimento, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
+
+#### imagem aqui
+
+###### *Figura 3. Plotagem dos Valores numéricos possíveis para o tempo de cozimento.*
