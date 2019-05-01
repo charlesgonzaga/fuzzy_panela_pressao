@@ -2,7 +2,7 @@
 ### Trabalho - IA
 
 ### Implementação de um Sistema Especialista Fuzzy para o controle da velocidade de cozimento de uma Panela-de-Pressão
-###### Acadêmicos: Charle Gonzaga, Cássio Rasveiler.
+##### Acadêmicos: Charle Gonzaga, Cássio Rasveiler.
 
 #### 1. Introdução
 <p align="justify">
@@ -65,6 +65,8 @@ duas funções pré-definidas (z e s) e uma trapezóide:
   )
 )
 </pre>
-###### *A figura 1 ilustra os valores numéricos possíveis para a temperatura, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
+
+###### *A figura 1 ilustra os valores numéricos possíveis para a temperatura, considerando as variáveis lingüísticas*
+###### *definidas na Tabela 1 e no template respectivo.*
 
 #### 4. Conclusão
