@@ -148,7 +148,7 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
 </pre>
 
 <pre>
-(defrule moderado
+(defrule cozimento-moderado
   (declare (salience 10))
   (or 
     and(
@@ -165,6 +165,6 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
     )
   )
 =>
-  (assert (Tempo rapido))
+  (assert (Tempo moderado))
 )
 </pre>
