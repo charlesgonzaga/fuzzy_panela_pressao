@@ -1,8 +1,7 @@
 # Fuzzy - Panela-de-Pressao
-### Trabalho - IA
 
-### Implementação de um Sistema Especialista Fuzzy para o controle da velocidade de cozimento de uma Panela-de-Pressão
-##### Acadêmicos: Charle Gonzaga, Cássio Rasveiler.
+## Implementação de um Sistema Especialista Fuzzy para o controle da velocidade de cozimento de uma Panela-de-Pressão
+### Acadêmicos: Charle Gonzaga, Cássio Rasveiler.
 
 #### 1. Introdução
 <p align="justify">
