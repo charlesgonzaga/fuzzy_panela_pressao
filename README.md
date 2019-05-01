@@ -196,3 +196,22 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
   (assert (Tempo muito_lento))
 )
 </pre>
+
+<p align="justify">
+Foram gerados valores através de cada um dos deffacts, no sentido de testar as regras, e obter os valores
+numéricos relacionados aos resultados. O código-fonte de cada um dos testes ilustram a utilização de valores para o tempo de cozimento de uma panela de pressão.
+</pre>
+
+<pre>
+(deffacts saida1
+  (temperatura alta)
+  (pressao media)
+)
+</pre>
+
+<pre>
+(deffacts saida2
+  (temperatura baixa)
+  (pressao media)
+)
+</pre>
