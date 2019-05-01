@@ -138,8 +138,30 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
       (pressao media)
     )
     and(
+      (temperatura media)
+      (pressao alta)
+    )
+  )
+=>
+  (assert (Tempo rapido))
+)
+</pre>
+
+<pre>
+(defrule moderado
+  (declare (salience 10))
+  (or 
+    and(
       (temperatura alta)
+      (pressao baixa)
+    )
+    and(
+      (temperatura media)
       (pressao media)
+    )
+    and(
+      (temperatura baixa)
+      (pressao alta)
     )
   )
 =>
