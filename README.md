@@ -67,7 +67,7 @@ duas funções pré-definidas (z e s) e uma trapezóide:
 
 ###### *A figura 1 ilustra os valores numéricos possíveis para a temperatura, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
-#### ![Figura 1!](https://raw.githubusercontent.com/charlesgonzaga/fuzzy_panela_pressao/master/img-template-temperatura.jpg "Philadelphia's Magic Gardens")
+#### ![Figura 1!](https://raw.githubusercontent.com/charlesgonzaga/fuzzy_panela_pressao/master/img-template-temperatura.jpg "deftemplate temperatura")
 ###### *Figura 1. Plotagem dos Valores numéricos possíveis para a temperatura.*
 
 <p align="justify">
@@ -87,7 +87,7 @@ três funções piramidaes:
 
 ###### *A figura 2 ilustra os valores numéricos possíveis para a pressão, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
-#### imagem aqui
+#### ![Figura 2!](https://raw.githubusercontent.com/charlesgonzaga/fuzzy_panela_pressao/master/img-template-pressao.jpg "deftemplate pressao")
 ###### *Figura 2. Plotagem dos Valores numéricos possíveis para a pressão.*
 
 <p align="justify">
@@ -109,7 +109,7 @@ cinco funções piramidaes:
 
 ###### *A figura 3 ilustra os valores numéricos possíveis para o tempo de cozimento, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
-#### imagem aqui
+#### ![Figura 3!](https://raw.githubusercontent.com/charlesgonzaga/fuzzy_panela_pressao/master/img-template-tempo.jpg "deftemplate tempo")
 ###### *Figura 3. Plotagem dos Valores numéricos possíveis para o tempo de cozimento.*
 
 <p align="justify">
