@@ -65,5 +65,6 @@ duas funções pré-definidas (z e s) e uma trapezóide:
   )
 )
 </pre>
+###### *A figura 1 ilustra os valores numéricos possíveis para a temperatura, considerando as variáveis lingüísticas definidas na Tabela 1 e no template respectivo.*
 
 #### 4. Conclusão
