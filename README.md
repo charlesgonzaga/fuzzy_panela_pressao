@@ -102,9 +102,9 @@ cinco funções piramidaes:
   (
     (muito_rapido (z 0 30))
     (rapido (15 0)(30 1)(45 0))
-    (normal (30 0)(45 1)(60 0))
-    (demorado (45 0)(60 1)(75 0))
-    (muito_demorado (s 60 90))
+    (moderado (30 0)(45 1)(60 0))
+    (lento (45 0)(60 1)(75 0))
+    (muito_lento (s 60 90))
   )
 )
 </pre>
