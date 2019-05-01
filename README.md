@@ -168,3 +168,31 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
   (assert (Tempo moderado))
 )
 </pre>
+
+<pre>
+(defrule cozimento-lento
+  (declare (salience 10))
+  (or 
+    and(
+      (temperatura media)
+      (pressao baixa)
+    )
+    and(
+      (temperatura baixa)
+      (pressao media)
+    )
+  )
+=>
+  (assert (Tempo lento))
+)
+</pre>
+
+<pre>
+(defrule cozimento-muito-lento
+  (declare (salience 10))
+  (temperatura baixa)
+  (pressao baixa)
+=>
+  (assert (Tempo muito_lento))
+)
+</pre>
