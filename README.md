@@ -210,7 +210,7 @@ posteriormente às demais regras do sistema.
   ?v_tmp <- (tempo ?)
 =>
   (bind ?*g_resultado* (moment-defuzzify ?v_tmp))
-  (plot-fuzzy-value t "*" ?v_temp)
+  (plot-fuzzy-value t "*" nil nil ?v_tmp)
   (retract ?v_tmp)
   (printout t "Tempo de cozimento: ")
   (printout t ?*g_resultado* crlf)
@@ -231,7 +231,7 @@ numéricos relacionados aos resultados. O código-fonte de cada um dos testes il
 </pre>
 ###### *A figura 4 ilustra a saida do deffacts __saida1__.*
 
-#### imagem aqui
+#### ![Figura 4!](https://raw.githubusercontent.com/charlesgonzaga/fuzzy_panela_pressao/master/img-saida1.jpg "plotagem saida1")
 ###### *Figura 4. Plotagem do deffacts saida1.*
 
 <pre>
@@ -242,7 +242,7 @@ numéricos relacionados aos resultados. O código-fonte de cada um dos testes il
 </pre>
 ###### *A figura 5 ilustra a saida do deffacts __saida2__.*
 
-#### imagem aqui
+#### ![Figura 5!](https://raw.githubusercontent.com/charlesgonzaga/fuzzy_panela_pressao/master/img-saida2.jpg "plotagem saida2")
 ###### *Figura 5. Plotagem do deffacts saida2.*
 
 #### 3. Conclusão
