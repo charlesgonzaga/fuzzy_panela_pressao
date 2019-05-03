@@ -195,9 +195,33 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
 </pre>
 
 <p align="justify">
+Para a defuzzificação, foi criada uma variável global e uma regra que também faz a plotagem do
+valor numérico encontrado. A regra defuzifica foi declarada com salience 0 de forma a ser executada
+posteriormente às demais regras do sistema.
+</p>
+<pre>
+(defglobal
+  ?*g_resultado* = 0
+)
+
+(defrule defuzifica
+  (declare (salience 0))
+  ?v_tmp <- (tempo ?)
+=>
+  (bind ?*g_resultado* (moment-defuzzify ?v_tmp))
+  ;(plot-fuzzy-value t "*" ?v_temp)
+  (retract ?v_tmp)
+  (printout t "Tempo de cozimento: ")
+  ;(printout t ?v_tmp)
+  (printout t ?*g_resultado* crlf)
+  (printout t " >>> Término <<< " crlf)
+)
+</pre>
+
+<p align="justify">
 Foram gerados valores através de cada um dos deffacts, no sentido de testar as regras, e obter os valores
 numéricos relacionados aos resultados. O código-fonte de cada um dos testes ilustram a utilização de valores para o tempo de cozimento de uma panela de pressão.
-</pre>
+</p>
 
 <pre>
 (deffacts saida1
