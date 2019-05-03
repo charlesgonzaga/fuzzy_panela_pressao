@@ -130,11 +130,11 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
 (defrule cozimento-rapido
   (declare (salience 10))
   (or 
-    and(
+    (and
       (temperatura alta)
       (pressao media)
     )
-    and(
+    (and
       (temperatura media)
       (pressao alta)
     )
@@ -148,15 +148,15 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
 (defrule cozimento-moderado
   (declare (salience 10))
   (or 
-    and(
+    (and
       (temperatura alta)
       (pressao baixa)
     )
-    and(
+    (and
       (temperatura media)
       (pressao media)
     )
-    and(
+    (and
       (temperatura baixa)
       (pressao alta)
     )
@@ -170,11 +170,11 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
 (defrule cozimento-lento
   (declare (salience 10))
   (or 
-    and(
+    (and
       (temperatura media)
       (pressao baixa)
     )
-    and(
+    (and
       (temperatura baixa)
       (pressao media)
     )
