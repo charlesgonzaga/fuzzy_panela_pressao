@@ -203,7 +203,8 @@ posteriormente às demais regras do sistema.
 (defglobal
   ?*g_resultado* = 0
 )
-
+</pre>
+<pre>
 (defrule defuzifica
   (declare (salience 0))
   ?v_tmp <- (tempo ?)
