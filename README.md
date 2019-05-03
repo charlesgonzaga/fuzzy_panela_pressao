@@ -122,7 +122,7 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
   (temperatura alta)
   (pressao alta)
 =>
-  (assert (Tempo muito_rapido))
+  (assert (tempo muito_rapido))
 )
 </pre>
 
@@ -140,7 +140,7 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
     )
   )
 =>
-  (assert (Tempo rapido))
+  (assert (tempo rapido))
 )
 </pre>
 
@@ -162,7 +162,7 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
     )
   )
 =>
-  (assert (Tempo moderado))
+  (assert (tempo moderado))
 )
 </pre>
 
@@ -180,7 +180,7 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
     )
   )
 =>
-  (assert (Tempo lento))
+  (assert (tempo lento))
 )
 </pre>
 
@@ -190,7 +190,7 @@ As variáveis lingüística foram colocadas em 5 regras distintas. A utilizaçã
   (temperatura baixa)
   (pressao baixa)
 =>
-  (assert (Tempo muito_lento))
+  (assert (tempo muito_lento))
 )
 </pre>
 
@@ -209,10 +209,9 @@ posteriormente às demais regras do sistema.
   ?v_tmp <- (tempo ?)
 =>
   (bind ?*g_resultado* (moment-defuzzify ?v_tmp))
-  ;(plot-fuzzy-value t "*" ?v_temp)
+  (plot-fuzzy-value t "*" ?v_temp)
   (retract ?v_tmp)
   (printout t "Tempo de cozimento: ")
-  ;(printout t ?v_tmp)
   (printout t ?*g_resultado* crlf)
   (printout t " >>> Término <<< " crlf)
 )
