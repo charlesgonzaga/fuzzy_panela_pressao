@@ -250,13 +250,19 @@ numéricos relacionados aos resultados. O código-fonte de cada um dos testes il
 &nbsp;&nbsp;&nbsp;Um sistema especialista é aquele que tem por finalidade entender o
 conhecimento humano de uma determinada área e aplicar regras para substituir o
 trabalho humano.
+</p>
+<p align="justify">
 &nbsp;&nbsp;&nbsp;Deste modo realizou-se um projeto cujo objetivo foi criar um programa
 especialista que pudesse mensurar o tempo de cozimento de alimentos em uma
 panela de pressão, sendo as variáveis de entrada no presente estudo, a temperatura
 (fogo) e a pressão.
+</p>
+<p align="justify">
 &nbsp;&nbsp;&nbsp;Neste contexto, os objetivos deste projeto foram alcançados, pois através do
 programa, quando o usuário inserir as variáveis de entrada “temperatura” e “pressão”,
 o sistema informa o tempo necessário para o cozimento dos alimentos.
+</p>
+<p align="justify">
 &nbsp;&nbsp;&nbsp;Por fim, caso este sistema tenha sua eficácia comprovada, o mesmo facilitará o
 controle do cozimento de diversos alimentos.
 </p>
