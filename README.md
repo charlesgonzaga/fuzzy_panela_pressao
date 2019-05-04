@@ -247,16 +247,22 @@ numéricos relacionados aos resultados. O código-fonte de cada um dos testes il
 
 #### 3. Conclusão
 <p align="justify">
-Um sistema especialista é aquele que tem por finalidade entender o
+  Um sistema especialista é aquele que tem por finalidade entender o
 conhecimento humano de uma determinada área e aplicar regras para substituir o
 trabalho humano.
-Deste modo realizou-se um projeto cujo objetivo foi criar um programa
+</p>
+<p align="justify">
+  Deste modo realizou-se um projeto cujo objetivo foi criar um programa
 especialista que pudesse mensurar o tempo de cozimento de alimentos em uma
 panela de pressão, sendo as variáveis de entrada no presente estudo, a temperatura
-(fogo) e a pressão .
-Neste contexto, os objetivos deste projeto foram alcançados, pois através do
+(fogo) e a pressão.
+</p>
+<p align="justify">
+  Neste contexto, os objetivos deste projeto foram alcançados, pois através do
 programa, quando o usuário inserir as variáveis de entrada “temperatura” e “pressão”,
 o sistema informa o tempo necessário para o cozimento dos alimentos.
-Por fim, caso este sistema tenha sua eficácia comprovada, o mesmo facilitará o
+</p>
+<p align="justify">
+  Por fim, caso este sistema tenha sua eficácia comprovada, o mesmo facilitará o
 controle do cozimento de diversos alimentos.
 </p>
